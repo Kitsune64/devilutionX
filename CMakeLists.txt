@@ -104,6 +104,7 @@ endif()
 
 if(HAIKU)
   set(ASAN OFF)
+  set(UBSAN OFF)
 endif()
 
 if(DIST)
